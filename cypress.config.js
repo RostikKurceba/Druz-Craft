@@ -2,7 +2,7 @@ const { defineConfig } = require('cypress');
 const webpackConfig = require('./config/webpack.cypress.config');
 
 module.exports = defineConfig({
-  projectId: 'hafq55',
+    projectId: 'hafq55',
     component: {
         devServer: {
             framework: 'react',
