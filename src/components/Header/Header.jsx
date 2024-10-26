@@ -8,7 +8,7 @@ const Header = () => (
         <div>
             <h1 className="header">Vanilla JavaScript</h1>
             <p>тобто, JavaScript без будь яких (UI) фреймворків або бібліотек</p>
-            <p>чистий JavaScript</p>
+            <p>чистий JavaScript</p
         </div>
     </header>
 );
