@@ -1,0 +1,78 @@
+.container {
+    width: 1300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 140px;
+    color: #B39977;
+}
+
+.container img{
+    width: 560px;
+    height: 560px;
+}
+
+.buttonsForSafe {
+    margin-top: 100px;
+}
+
+.buttonsForSafe button{
+    background-color: #B39977;
+    color: white;
+    border: 0; 
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; 
+}
+
+.buttonsForSafe button:hover {
+    color: #B39977; 
+    background-color: white; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.container h2 {
+    font-size: 40px;
+}
+
+.containerFirst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+    padding-top: 0;
+    width: 600px;
+}
+
+.productSettings button {
+    background-color: transparent;
+    border: 2px solid #B39977; 
+    border-radius: 20px;
+    font-size: 15px;
+    color: #B39977;
+    height: 35px;
+    width: 90px;
+    flex-wrap: wrap;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; 
+    margin-right: 10px;
+}
+
+.productSettings button:hover {
+    background-color: #B39977; 
+    color: white; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+

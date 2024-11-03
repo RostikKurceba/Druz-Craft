@@ -1,0 +1,62 @@
+.container {
+    width: 1200px;
+    margin-top: 140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #B39977;
+}
+
+.container button {
+    background-color: transparent;
+    border: 2px solid #B39977; 
+    border-radius: 20px;
+    font-size: 15px;
+    color: #B39977;
+    height: 35px;
+    width: 90px;
+    flex-wrap: wrap;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; 
+    margin-top: 20px;
+}
+
+.container button:hover{
+    background-color: #B39977; 
+    color: white; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.basketTitle {
+    color: #B39977;
+    font-size: 50px;
+}
+
+.products {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px; 
+}
+
+.savedProduct {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.productImg {
+    width: 300px;
+    height: 300px;
+}
+
+.productLink {
+    text-decoration: none;
+    color:#B39977;
+    font-size: 25px;
+}
+
+.productLink:hover{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
