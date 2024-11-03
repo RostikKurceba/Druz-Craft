@@ -1,4 +1,3 @@
-// src/components/Basket/Basket.jsx
 import React from 'react';
 import { useBasket } from '../contexts/BasketContext'; 
 import { Link } from 'react-router-dom'; 

@@ -1,4 +1,3 @@
-// src/router.jsx
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Login from "./components/Login/Login";
@@ -9,12 +8,12 @@ import Catalog from "./components/Catalog/Catalog";
 import Layout from "./components/Layout/Layout"; 
 import Basket from "./components/Basket/Basket";
 import Product from "./components/Product/Product";
-import NotFound from "./components/NotFound/NotFound"; // Додайте цей імпорт
+import NotFound from "./components/NotFound/NotFound"; 
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <Layout><Main /></Layout>, //Exit
+        element: <Layout><Exit /></Layout>, 
     },
     {
         path: '/login',

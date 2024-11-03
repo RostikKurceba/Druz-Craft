@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // Імпортуємо PropTypes
+import PropTypes from 'prop-types'; 
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
@@ -11,9 +11,8 @@ const Layout = ({ children }) => (
     </div>
 );
 
-// Додаємо валідацію для пропсів
 Layout.propTypes = {
-    children: PropTypes.node.isRequired, // children має бути обов'язковим і може бути будь-яким React-елементом
+    children: PropTypes.node.isRequired, 
 };
 
 export default Layout;

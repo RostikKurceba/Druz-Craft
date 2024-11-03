@@ -1,4 +1,3 @@
-// src/components/contexts/BasketContext.js
 import React, { createContext, useContext, useState } from 'react';
 
 const BasketContext = createContext();

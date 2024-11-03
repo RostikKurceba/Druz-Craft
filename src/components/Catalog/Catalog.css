@@ -29,7 +29,7 @@
 }
 
 .productImage {
-    height: 400px; /* Або змініть клас на .bedroomImage, якщо потрібно */
+    height: 400px; 
     width: 550px;
 }
 

@@ -1,4 +1,3 @@
-// src/components/Catalog/Catalog.jsx
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styles from './Catalog.css';

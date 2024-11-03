@@ -1,4 +1,3 @@
-// src/components/Product/Product.jsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './Product.css';
@@ -84,3 +83,4 @@ const Product = () => {
 };
 
 export default Product;
+s
