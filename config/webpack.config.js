@@ -30,6 +30,13 @@ const basicConfig = {
                     },
                 ],
             },
+            {
+                test: /\.(png|jpe?g|gif|svg)$/i, // Додаємо лоадер для зображень
+                type: 'asset/resource',
+                generator: {
+                    filename: 'images/[name][ext]', // Опціонально: налаштування для збереження в окрему папку
+                },
+            },
         ],
     },
     resolve: {

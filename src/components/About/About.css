@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    max-width: 1300px;
+    margin-top: 50px;
+   
+}
+
+.aboutTitle{
+    font-size: 50px;
+}
+
+.aboutText {
+    max-width: 550px;
+    color: #B39977;
+}
+
+.aboutP{
+    font-size: 20px;
+}
+
+.aboutImgContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutImg {
+    max-width: 500px;
+    height: auto;
+
+}
